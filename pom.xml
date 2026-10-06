@@ -91,6 +91,7 @@
         <configuration>
           <reportVersion>${allure.version}</reportVersion>
           <resultsDirectory>${project.build.directory}/allure-results</resultsDirectory>
+          <servePort>8085</servePort>
         </configuration>
       </plugin>
     </plugins>
