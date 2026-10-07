@@ -9,4 +9,12 @@ public class SimpleTest {
     public void test1() {
         Assertions.assertTrue(true, "message");
     }
+
+    @Test
+    @Tag("base1")
+    public void test2() {
+        System.out.println("====================================");
+        Assertions.assertTrue(true, "message");
+        System.out.println("====================================");
+    }
 }
